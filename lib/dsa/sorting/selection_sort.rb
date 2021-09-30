@@ -5,12 +5,6 @@ module DSA
     # Time: O(N^2)
     # Even though it's O(N^2), but actually it's half-faster than the Bubble Sort
     class SelectionSort < Base
-      attr_reader :nums
-
-      def initialize(nums)
-        @nums = nums
-      end
-
       def sort
         return nums if nums.size.zero?
 
@@ -30,10 +24,6 @@ module DSA
 
         nums
       end
-
-      private
-
-      attr_writer :nums
     end
   end
 end

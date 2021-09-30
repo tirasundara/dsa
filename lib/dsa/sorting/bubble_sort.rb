@@ -4,12 +4,6 @@ module DSA
     # Bubble Sort Algorithm
     # Time: O(N^2)
     class BubbleSort < Base
-      attr_reader :nums
-
-      def initialize(nums)
-        @nums = nums
-      end
-
       def sort
         sort_until_index = nums.size - 1
         is_sorted = false
@@ -29,10 +23,6 @@ module DSA
 
         nums
       end
-
-      private
-
-      attr_writer :nums
     end
   end
 end
