@@ -4,7 +4,7 @@ module DSA
     # Selection Sort Algorithm
     # Time: O(N^2)
     # Even though it's O(N^2), but actually it's half-faster than the Bubble Sort
-    class SelectionSort < Base
+    class SelectionSort < BaseSort
       def sort
         return nums if nums.size.zero?
 

@@ -3,7 +3,7 @@ module DSA
 
     # Bubble Sort Algorithm
     # Time: O(N^2)
-    class BubbleSort < Base
+    class BubbleSort < BaseSort
       def sort
         sort_until_index = nums.size - 1
         is_sorted = false
