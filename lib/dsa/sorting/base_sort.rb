@@ -1,6 +1,6 @@
 module DSA
   module Sorting
-    class Base
+    class BaseSort
       attr_accessor :nums
 
       def initialize(nums)
